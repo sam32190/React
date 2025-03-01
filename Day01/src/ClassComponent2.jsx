@@ -6,7 +6,7 @@ class Bike extends React.Component {
     this.state = { color: "green" };
   }
   render() {
-    return <h2> This is a Bike! </h2>;
+    return <h2> This is a {this.state.color} Bike! </h2>;
   }
 }
 
