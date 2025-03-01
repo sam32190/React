@@ -11,7 +11,7 @@
 // export default FootBall;
 
 function FootBall() {
-  // event handler function
+  // event handler function with parameters
   const shoot = (a) => {
     alert(a);
   };
