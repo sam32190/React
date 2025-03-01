@@ -16,13 +16,11 @@ const Card = styled.div`
   }
 `;
 
-const App3 = () => {
-  return (
-    <Card>
-      <h1> welcome to react</h1>
-    </Card>
-  );
-};
+const App3 = () => (
+  <Card>
+    <h1> welcome to react </h1>
+  </Card>
+);
 
 const StyledButton = styled.button`
   background-color: black;
@@ -30,12 +28,12 @@ const StyledButton = styled.button`
   color: white;
 `;
 
-// using functional component
+// using functional component with styled components
 function Component() {
   return <StyledButton> Login </StyledButton>;
 }
 
-// using class component
+// using class component with styled components
 class Component1 extends React.Component {
   render() {
     return <StyledButton> Login </StyledButton>;
